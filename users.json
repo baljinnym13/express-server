@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "eid": "1",
+      "firstname": "Naraa",
+      "lastname": "Davaa",
+      "email": "naraa@gmail.com",
+      "position": "Developer",
+      "profileImg": "https://img.daisyui.com/images/profile/demo/2@94.webp"
+    },
+    {
+      "eid": "2",
+      "firstname": "Saraa",
+      "lastname": "Gerlee",
+      "email": "saraa@gmail.com",
+      "position": "Developer",
+      "profileImg": "https://img.daisyui.com/images/profile/demo/2@94.webp"
+    }
+  ]
+}
