@@ -1,19 +1,35 @@
 {
   "users": [
     {
-      "eid": "1",
-      "firstname": "Naraa",
+      "eid": 1,
+      "firstname": "Gambaa",
       "lastname": "Davaa",
       "email": "naraa@gmail.com",
       "position": "Developer",
       "profileImg": "https://img.daisyui.com/images/profile/demo/2@94.webp"
     },
     {
-      "eid": "2",
-      "firstname": "Saraa",
-      "lastname": "Gerlee",
-      "email": "saraa@gmail.com",
+      "eid": 5,
+      "firstname": "Galaa",
+      "lastname": "Davaa",
+      "email": "naraa@gmail.com",
       "position": "Developer",
+      "profileImg": "https://img.daisyui.com/images/profile/demo/2@94.webp"
+    },
+    {
+      "eid": 6,
+      "firstname": "herlen",
+      "lastname": "Davaa",
+      "email": "naraa@gmail.com",
+      "position": "Developer",
+      "profileImg": "https://img.daisyui.com/images/profile/demo/2@94.webp"
+    },
+    {
+      "eid": 5,
+      "firstname": "chimbaa",
+      "lastname": "mujaan",
+      "email": "chimbaa@email.com",
+      "position": "mujaan",
       "profileImg": "https://img.daisyui.com/images/profile/demo/2@94.webp"
     }
   ]

@@ -17,9 +17,8 @@ app.get("/users", (req, res) => {
 
 app.post("/users", (req, res) => {
   const newuser = {
-    id: users.length + 1,
-    name: req.body.name,
-    age: req.body.age,
+    eid: users.length + 1,
+    ...req.body,
   };
   users.push(newuser);
   fs.writeFileSync("./users.json", JSON.stringify({ users }));
@@ -42,7 +41,7 @@ app.put("/users/:userId", (req, res) => {
 
 app.delete("/users/:id", (req, res) => {
   const findIndex = users.findIndex(
-    (user) => user.id === parseInt(req.params.id)
+    (user) => user.eid === parseInt(req.params.id)
   );
   if (findIndex > -1) {
     const deletedUser = users.splice(findIndex, 1);
